@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="tictac.js"></script>
+    <title>Tic-Tac-Toe</title>
+    <style type="text/css">
+      #div1,
+      #div2,
+      #div3,
+      #div4,
+      #div5,
+      #div6,
+      #div7,
+      #div8,
+      #div9 {
+        border: 1px solid rgb(3, 28, 75);
+        height: 100px;
+        width: 100px;
+        float: left;
+      }
+      #div1,
+      #div4,
+      #div7 {
+        clear: left;
+      }
+      #head{
+          text-align: left ;
+          font-family: 'Courier New', Courier, monospace;
+          background-color: rgb(33, 18, 46);
+          padding:5px;
+          padding-left: 40px;
+          border-radius: 2px;
+          font-size: 10px;
+          color: white;
+
+      }
+     
+      #Main {
+        margin-left: 540px;
+        margin-top: 100px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 69px;
+        font-style: bold;
+        text-align: center;
+        color: rgb(223, 28, 28);
+        background-color: rgb(211, 179, 141);
+      }
+    </style>
+  </head>
+  <body>
+    
+      <div id="head">
+      <h1>Welcome to tic-tac-toe  game</h1>
+      </div>
+    <div id="Main">
+      <div id="div1" onclick="fill(this)"></div>
+      <div id="div2" onclick="fill(this)"></div>
+      <div id="div3" onclick="fill(this)"></div>
+      <div id="div4" onclick="fill(this)"></div>
+      <div id="div5" onclick="fill(this)"></div>
+      <div id="div6" onclick="fill(this)"></div>
+      <div id="div7" onclick="fill(this)"></div>
+      <div id="div8" onclick="fill(this)"></div>
+      <div id="div9" onclick="fill(this)"></div>
+    </div>
+  </body>
+</html>
